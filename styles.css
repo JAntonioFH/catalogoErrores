@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0px;
+}
+
+#encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#encabezado h1 {
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+#encabezado p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input#searchInput {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+
+button[type="button"] {
+    padding: 10px 20px;
+    background-color: lightgray;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#carrousel {
+    background-color: lightgray;
+    padding: 20px;
+    min-height: 100px;
+}
+#barra-superior{
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+}
+.results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coincidencias{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 800px;
+    height: 50px;
+}
+#barra-superior{
+    color: white;
+    font-size: 50px;
+}
+.lista-de-acciones {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 700px;
+    width: 600px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+}
+.lista-de-acciones .contenedor-acciones {
+    display: inline-block;
+    margin-right: 8px;
+    width: 600px;
+}
+
+.lista-de-acciones .contenedor-acciones .movie-img {
+    height: 225px;
+    min-height: 225px;
+    max-height: 225px;
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+}
